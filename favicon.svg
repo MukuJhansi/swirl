@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="creamGrad" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="coneGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Space background -->
+  <rect width="64" height="64" fill="url(#spaceGrad)"/>
+  
+  <!-- Stars -->
+  <circle cx="8" cy="12" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="52" cy="8" r="0.5" fill="#ffd700" opacity="0.9"/>
+  <circle cx="58" cy="20" r="0.8" fill="#ffffff" opacity="0.7"/>
+  <circle cx="12" cy="52" r="0.6" fill="#ffd700" opacity="0.8"/>
+  <circle cx="48" cy="56" r="1" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Ice cream cone -->
+  <polygon points="32,45 26,58 38,58" fill="url(#coneGrad)" stroke="#d4a574" stroke-width="0.5"/>
+  <path d="M26,58 L32,45 L38,58" fill="none" stroke="#b8860b" stroke-width="0.3"/>
+  
+  <!-- Ice cream scoops -->
+  <!-- Bottom scoop (chocolate) -->
+  <circle cx="32" cy="40" r="8" fill="#8B4513" stroke="#654321" stroke-width="0.5"/>
+  
+  <!-- Middle scoop (strawberry) -->
+  <circle cx="32" cy="28" r="7.5" fill="#FFB6C1" stroke="#FF69B4" stroke-width="0.5"/>
+  
+  <!-- Top scoop (vanilla) -->
+  <circle cx="32" cy="18" r="7" fill="url(#creamGrad)" stroke="#d4d4d4" stroke-width="0.5"/>
+  
+  <!-- Cosmic sparkles -->
+  <polygon points="20,25 21,27 23,26 21,25" fill="#ffd700" opacity="0.8"/>
+  <polygon points="45,35 46,37 48,36 46,35" fill="#ffffff" opacity="0.9"/>
+  <polygon points="18,40 19,42 21,41 19,40" fill="#e94560" opacity="0.7"/>
+  
+  <!-- Cherry on top -->
+  <circle cx="32" cy="12" r="1.5" fill="#dc143c"/>
+  <path d="M32,12 Q34,8 36,10" fill="none" stroke="#228b22" stroke-width="0.8"/>
+</svg>
